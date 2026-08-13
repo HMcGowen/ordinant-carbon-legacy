@@ -378,6 +378,102 @@ section.alt-bg {
   margin-bottom: 10px;
 }
 
+/* Platform page: simplified renditions of the redesign's data visuals */
+
+.simple-stats {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.simple-stats div {
+  flex: 1 1 140px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+}
+
+.simple-stats .stat-number {
+  display: block;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e3f52;
+}
+
+.simple-stats .stat-label {
+  display: block;
+  font-size: 13px;
+  color: #666666;
+  margin-top: 4px;
+}
+
+.steps-list {
+  list-style: none;
+  counter-reset: step-counter;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+.steps-list li {
+  counter-increment: step-counter;
+  padding: 12px 0 12px 42px;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  font-size: 15px;
+  color: #444444;
+}
+
+.steps-list li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+  background: #4c9a6b;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 24px;
+}
+
+.systems-cols {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.systems-cols div {
+  flex: 1 1 260px;
+}
+
+.systems-cols h4 {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 15px;
+  color: #1e3f52;
+  margin-bottom: 8px;
+}
+
+.systems-cols ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555555;
+  font-size: 14.5px;
+}
+
+.systems-cols li {
+  margin-bottom: 6px;
+}
+
 /* Footer */
 
 footer.site-footer {
