@@ -2,7 +2,7 @@
    Deliberately dated: generic sans stack, conventional palette, drop shadows,
    inconsistent spacing. This is intentional, not an oversight. */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Open+Sans:wght@400;600;700&family=Lato:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -12,13 +12,13 @@
 
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  color: #333333;
+  color: #66645f;
   line-height: 1.6;
-  background: #ffffff;
+  background: #ebe7de;
 }
 
 a {
-  color: #a8420f;
+  color: #992e00;
   text-decoration: none;
 }
 
@@ -51,11 +51,11 @@ header.site-header {
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 700;
   font-size: 22px;
-  color: #333333;
+  color: #66645f;
 }
 
 .logo span {
-  color: #a8420f;
+  color: #992e00;
 }
 
 nav.main-nav ul {
@@ -66,14 +66,14 @@ nav.main-nav ul {
 }
 
 nav.main-nav a {
-  color: #333333;
+  color: #66645f;
   font-weight: 600;
   font-size: 15px;
 }
 
 nav.main-nav a.active {
-  color: #a8420f;
-  border-bottom: 2px solid #a8420f;
+  color: #992e00;
+  border-bottom: 2px solid #992e00;
   padding-bottom: 4px;
 }
 
@@ -89,31 +89,31 @@ nav.main-nav a.active {
 }
 
 .btn-primary {
-  background: linear-gradient(180deg, #c9531a 0%, #a8420f 100%);
+  background: linear-gradient(180deg, #ff4d00 0%, #992e00 100%);
   color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-primary:hover {
-  background: #8c380c;
+  background: #7a2600;
   text-decoration: none;
 }
 
 .btn-secondary {
   background: #ffffff;
-  color: #a8420f;
-  border: 2px solid #a8420f;
+  color: #992e00;
+  border: 2px solid #992e00;
 }
 
 .btn-secondary:hover {
-  background: #fbf1ec;
+  background: #faf7f0;
   text-decoration: none;
 }
 
 /* Hero */
 
 .hero {
-  background: linear-gradient(135deg, #eaf3ef 0%, #eef5fa 100%);
+  background: linear-gradient(135deg, #faf7f0 0%, #ebe7de 100%);
   padding: 70px 0 60px;
 }
 
@@ -129,17 +129,17 @@ nav.main-nav a.active {
 }
 
 .hero-copy h1 {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Inria Serif', Georgia, serif;
   font-size: 38px;
   font-weight: 700;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 18px;
   line-height: 1.25;
 }
 
 .hero-copy p {
   font-size: 17px;
-  color: #4a4a4a;
+  color: #66645f;
   margin-bottom: 26px;
   max-width: 520px;
 }
@@ -153,17 +153,17 @@ nav.main-nav a.active {
   min-height: 280px;
   background: repeating-linear-gradient(
     45deg,
-    #d8e6da,
-    #d8e6da 10px,
-    #cfe0d2 10px,
-    #cfe0d2 20px
+    #ebe7de,
+    #ebe7de 10px,
+    #d4cdc0 10px,
+    #d4cdc0 20px
   );
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6b8b75;
+  color: #7d7a73;
   font-size: 13px;
   font-family: 'Open Sans', Arial, sans-serif;
   text-align: center;
@@ -177,7 +177,7 @@ section {
 }
 
 section.alt-bg {
-  background: #f7f9fa;
+  background: #faf7f0;
 }
 
 .section-title {
@@ -186,15 +186,15 @@ section.alt-bg {
 }
 
 .section-title h2 {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Inria Serif', Georgia, serif;
   font-size: 28px;
   font-weight: 700;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 10px;
 }
 
 .section-title p {
-  color: #666666;
+  color: #66645f;
   font-size: 15px;
 }
 
@@ -218,25 +218,25 @@ section.alt-bg {
 .value-card h3 {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 19px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 12px;
 }
 
 .value-card p {
   font-size: 14.5px;
-  color: #555555;
+  color: #66645f;
 }
 
 /* Testimonial block */
 
 .testimonial {
   background: #ffffff;
-  border-left: 4px solid #a8420f;
+  border-left: 4px solid #992e00;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   padding: 22px 26px;
   margin-bottom: 22px;
   font-style: italic;
-  color: #444444;
+  color: #66645f;
 }
 
 .testimonial cite {
@@ -245,27 +245,27 @@ section.alt-bg {
   font-style: normal;
   font-weight: 700;
   font-size: 13.5px;
-  color: #a8420f;
+  color: #992e00;
 }
 
 /* CTA band */
 
 .cta-band {
-  background: #1e3f52;
+  background: #1a1917;
   color: #ffffff;
   text-align: center;
   padding: 50px 0;
 }
 
 .cta-band h2 {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Inria Serif', Georgia, serif;
   font-size: 26px;
   margin-bottom: 12px;
 }
 
 .cta-band p {
   margin-bottom: 24px;
-  color: #cfe0e8;
+  color: #d4cdc0;
 }
 
 /* Feature list (Platform page) */
@@ -281,14 +281,14 @@ section.alt-bg {
   border-bottom: 1px solid #e6e6e6;
   position: relative;
   font-size: 15.5px;
-  color: #444444;
+  color: #66645f;
 }
 
 .feature-list li::before {
   content: "\2713";
   position: absolute;
   left: 0;
-  color: #a8420f;
+  color: #992e00;
   font-weight: 700;
 }
 
@@ -301,7 +301,7 @@ section.alt-bg {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 30px;
   font-size: 13.5px;
-  color: #666666;
+  color: #66645f;
 }
 
 .sector-filter .filter-btn {
@@ -309,14 +309,14 @@ section.alt-bg {
   border: 1px solid #d8d8d8;
   border-radius: 20px;
   background: #ffffff;
-  color: #555555;
+  color: #66645f;
   font-size: 13px;
 }
 
 .sector-filter .filter-btn.active {
-  background: #a8420f;
+  background: #992e00;
   color: #ffffff;
-  border-color: #a8420f;
+  border-color: #992e00;
 }
 
 .case-study-grid {
@@ -338,7 +338,7 @@ section.alt-bg {
 .case-study-card-full .sector-tag {
   display: inline-block;
   background: #f1f3f4;
-  color: #666666;
+  color: #66645f;
   font-size: 11.5px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -349,7 +349,7 @@ section.alt-bg {
 
 .case-study-card-full p.quote {
   font-size: 16px;
-  color: #333333;
+  color: #66645f;
   margin-bottom: 16px;
   line-height: 1.5;
 }
@@ -357,12 +357,12 @@ section.alt-bg {
 .case-study-card-full .role {
   font-weight: 700;
   font-size: 14px;
-  color: #1e3f52;
+  color: #1a1917;
 }
 
 .case-study-card-full .org {
   font-size: 13.5px;
-  color: #888888;
+  color: #7d7a73;
 }
 
 /* Case study blocks */
@@ -379,13 +379,13 @@ section.alt-bg {
 .case-study-block h3 {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 19px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 10px;
 }
 
 .case-study-block p {
   font-size: 15px;
-  color: #555555;
+  color: #66645f;
 }
 
 /* Contact form */
@@ -409,7 +409,7 @@ section.alt-bg {
   display: block;
   font-weight: 700;
   font-size: 13.5px;
-  color: #333333;
+  color: #66645f;
   margin-bottom: 6px;
   margin-top: 16px;
 }
@@ -435,7 +435,7 @@ section.alt-bg {
 
 .form-fine-print {
   font-size: 12.5px;
-  color: #888888;
+  color: #7d7a73;
   margin-top: 14px;
   line-height: 1.5;
 }
@@ -452,7 +452,7 @@ section.alt-bg {
 .contact-details li strong {
   display: block;
   font-size: 14px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 4px;
 }
 
@@ -483,13 +483,13 @@ section.alt-bg {
 .contact-details h3 {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 19px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 12px;
 }
 
 .contact-details p {
   font-size: 15px;
-  color: #555555;
+  color: #66645f;
   margin-bottom: 10px;
 }
 
@@ -502,9 +502,9 @@ section.alt-bg {
 
 .figure-panel {
   flex: 1 1 480px;
-  border: 1px solid #d8d8d8;
+  border: 1px solid #d4cdc0;
   border-radius: 4px;
-  background: #f7f9fa;
+  background: #faf7f0;
   padding: 20px;
 }
 
@@ -512,7 +512,7 @@ section.alt-bg {
   font-size: 12px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #888888;
+  color: #7d7a73;
   margin-bottom: 16px;
   font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -546,13 +546,13 @@ section.alt-bg {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #1e3f52;
+  color: #1a1917;
 }
 
 .simple-stats .stat-label {
   display: block;
   font-size: 13px;
-  color: #666666;
+  color: #66645f;
   margin-top: 4px;
 }
 
@@ -569,7 +569,7 @@ section.alt-bg {
   border-bottom: 1px solid #e6e6e6;
   position: relative;
   font-size: 15px;
-  color: #444444;
+  color: #66645f;
 }
 
 .steps-list li::before {
@@ -579,7 +579,7 @@ section.alt-bg {
   top: 10px;
   width: 24px;
   height: 24px;
-  background: #a8420f;
+  background: #992e00;
   color: #ffffff;
   border-radius: 50%;
   font-size: 13px;
@@ -603,14 +603,14 @@ section.alt-bg {
 .systems-cols h4 {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 15px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 8px;
 }
 
 .systems-cols ul {
   list-style: disc;
   padding-left: 20px;
-  color: #555555;
+  color: #66645f;
   font-size: 14.5px;
 }
 
@@ -637,7 +637,7 @@ footer.site-footer {
 .footer-col h4 {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 14px;
-  color: #1e3f52;
+  color: #1a1917;
   margin-bottom: 12px;
 }
 
@@ -650,7 +650,7 @@ footer.site-footer {
 }
 
 .footer-col a {
-  color: #555555;
+  color: #66645f;
   font-size: 14px;
 }
 
@@ -665,7 +665,7 @@ footer.site-footer {
   border-top: 1px solid #dddddd;
   padding-top: 16px;
   font-size: 12.5px;
-  color: #888888;
+  color: #7d7a73;
   text-align: center;
 }
 
