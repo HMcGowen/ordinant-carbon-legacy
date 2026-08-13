@@ -50,29 +50,66 @@
   <section id="contact">
     <div class="container">
       <div class="section-title">
-        <h2>Contact Us</h2>
+        <h2>Request an Assessment</h2>
+        <p>Tell us about your organization and we'll follow up to discuss your reporting needs.</p>
       </div>
       <div class="contact-layout">
         <form class="contact-form" onsubmit="return false;">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
+          <div class="form-row">
+            <div>
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname">
+            </div>
+            <div>
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname">
+            </div>
+          </div>
 
-          <label for="email">Email</label>
+          <label for="email">Work Email</label>
           <input type="email" id="email" name="email">
 
           <label for="company">Company</label>
           <input type="text" id="company" name="company">
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
+          <label for="role">Role</label>
+          <input type="text" id="role" name="role">
+
+          <label for="sector">Sector</label>
+          <select id="sector" name="sector">
+            <option value="">Select sector</option>
+            <option value="hospitality">Hospitality</option>
+            <option value="property">Property Development</option>
+            <option value="professional-services">Professional Services</option>
+            <option value="education">Education</option>
+            <option value="multi-location">Multi-location Services</option>
+          </select>
+
+          <label for="regions">Operating Regions</label>
+          <input type="text" id="regions" name="regions" placeholder="e.g. North America, EU, APAC">
+
+          <label for="message">Reporting Obligations and Context</label>
+          <textarea id="message" name="message" placeholder="Describe your current reporting requirements, frameworks, and any deadlines."></textarea>
 
           <button type="submit" class="btn btn-primary">Submit</button>
+          <p class="form-fine-print">By submitting, you agree to our Privacy Policy. We'll use your information to follow up about your request.</p>
         </form>
         <div class="contact-details">
-          <h3>Prefer to Talk?</h3>
-          <p>Call us at (555) 019-4420</p>
-          <p>Email sales@ordinantcarbon.com</p>
-          <p>Our team typically responds within one business day.</p>
+          <h3>Other Ways to Reach Us</h3>
+          <ul>
+            <li>
+              <strong>General Inquiries</strong>
+              sales@ordinantcarbon.com
+            </li>
+            <li>
+              <strong>Headquarters</strong>
+              142 Fenwick Street, London, United Kingdom
+            </li>
+            <li>
+              <strong>Regional Offices</strong>
+              EU &middot; North America &middot; APAC
+            </li>
+          </ul>
         </div>
       </div>
     </div>
