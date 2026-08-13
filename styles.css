@@ -162,7 +162,7 @@ nav.main-nav a.btn-primary {
 
 .hero-image-placeholder {
   flex: 1 1 380px;
-  min-height: 280px;
+  height: 280px;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   overflow: hidden;
@@ -201,6 +201,7 @@ nav.main-nav a.btn-primary {
   height: 130px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 15%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   margin-bottom: 14px;
 }
