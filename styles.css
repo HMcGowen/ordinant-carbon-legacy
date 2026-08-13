@@ -378,6 +378,35 @@ section.alt-bg {
   margin-bottom: 10px;
 }
 
+.figure-list-row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.figure-panel {
+  flex: 1 1 480px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  background: #f7f9fa;
+  padding: 20px;
+}
+
+.figure-panel .figcaption {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #888888;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.list-panel {
+  flex: 1 1 340px;
+  padding-top: 6px;
+}
+
 /* Platform page: simplified renditions of the redesign's data visuals */
 
 .simple-stats {
